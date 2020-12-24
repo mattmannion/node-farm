@@ -1,0 +1,27 @@
+{
+    "name": "node-farm",
+    "version": "1.0.0",
+    "description": "node tut",
+    "main": "index.js",
+    "scripts": {
+        "livesvr": "live-server",
+        "nm": "nodemon index.js",
+        "start": "npm-run-all --parallel livesvr nm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mattmannion/node-farm.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mattmannion/node-farm/issues"
+    },
+    "homepage": "https://github.com/mattmannion/node-farm#readme",
+    "devDependencies": {
+        "live-server": "^1.2.1",
+        "nodemon": "^2.0.6",
+        "npm-run-all": "^4.1.5"
+    }
+}
