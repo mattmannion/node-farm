@@ -4,9 +4,9 @@
     "description": "node tut",
     "main": "index.js",
     "scripts": {
-        "livesvr": "live-server",
+        "livesvr": "live-server .",
         "nm": "nodemon index.js",
-        "start": "npm-run-all --parallel livesvr nm"
+        "start": "npm-run-all --parallel nm livesvr"
     },
     "repository": {
         "type": "git",
